@@ -22,7 +22,7 @@ void if_else_test(){
     }
     // tambien se puede " si A es menor o igual a B"
 
-    if( A < B){
+    if( A <= B){
         cout << "A es menor o igual a B" << endl;
     }
 
@@ -56,5 +56,5 @@ void if_else_test(){
         cout << "A NO es igual a B" << endl;
     }
     // termino el primer round ?), ahora en un ratito te muestro los operadores logicos sobre binarios
-
+}
 #endif
