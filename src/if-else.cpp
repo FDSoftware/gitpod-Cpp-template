@@ -57,4 +57,17 @@ void if_else_test(){
     }
     // termino el primer round ?), ahora en un ratito te muestro los operadores logicos sobre binarios
 }
+
+int get_number () {
+    int x;
+    cin >> x;
+    while(cin.fail()) {
+        cout << "Error" << std::endl;
+        cin.clear();
+        cin.ignore(256,'\n');
+        cin >> x;
+    }
+    return x;
+}
+
 #endif
