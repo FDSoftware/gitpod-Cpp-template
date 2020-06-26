@@ -69,5 +69,14 @@ int get_number () {
     }
     return x;
 }
-
+/*
+    if(cantidad > 15 && cantidad < 30)
+        cout << "el precio final es: " << get_descuento(precio, 1.5) << endl;
+    if(cantidad > 30 && cantidad < 50)
+        cout << "el precio final es: " << get_descuento(precio, 3.9) << endl;
+    if(cantidad > 50 && cantidad < 100)
+        cout << "el precio final es: " << get_descuento(precio, 15)  << endl;
+    if(cantidad > 100)
+        cout << "el precio final es: " << get_descuento(precio, 32)  << endl;
+*/
 #endif
